@@ -15,10 +15,12 @@ h4{
 
 }
 .navbar{
+  padding:20px;
+  font-size:30px;
   margin-bottom: 10%;
 }
 body{
-  background-image: url(bg.jpg);
+  background-image: linear-gradient(to bottom,lightblue,orange);
 background-position: center center;
   
   /* Background image doesn't tile */
