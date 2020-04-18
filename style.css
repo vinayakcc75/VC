@@ -1,0 +1,60 @@
+h1{
+color: black;
+  letter-spacing: 6px
+margin-top:3%;
+font-size: 40px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+h4{
+	margin-top:5%;
+	color: black;
+	
+	font-size: 20px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+
+}
+
+body{
+  background-image: url(bg.jpg);
+background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+.image {
+  width: 240px;
+  height: 240px;
+  margin:auto;
+  overflow: hidden;
+  border-radius: 50%;
+  }
+
+#link-container {
+    text-align: center;
+}
+#link {
+	border-radius:20%;
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+.dec{
+	color: black;
+  font-family: 'Anton', sans-serif;
+
+	text-align: center;
+
+}
