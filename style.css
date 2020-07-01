@@ -1,27 +1,27 @@
 h1{
 color: black;
-  letter-spacing: 6px
+  letter-spacing: 6px;
 font-size: 50px;
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-h4{
+.h4{
 	margin-top:5%;
-	color: black;
-	
-	font-size: 30px;
+	color: black;	
+	font-size: 25px;
   text-align: center;
   font-family: 'Anton', sans-serif;
-
+  letter-spacing: 1.4px;
 }
 .navbar{
-  padding:20px;
-  font-size:30px;
-  margin-bottom: 10%;
+  padding:10px;
+  margin-bottom: 5%;
+  background-color:transparent;
+  border-bottom: 3px solid black;
 }
 body{
-  background-image: linear-gradient(to bottom,lightblue,orange);
-background-position: center center;
+  background-image: url('Untitled design.png');
+  background-position: center center;
   
   /* Background image doesn't tile */
   background-repeat: no-repeat;
@@ -41,6 +41,7 @@ background-position: center center;
   margin:auto;
   overflow: hidden;
   border-radius: 50%;
+  border:5px solid black
   }
 
 #link-container {
@@ -48,7 +49,7 @@ background-position: center center;
     margin-bottom: 10%;
 }
 #link {
-	border-radius:20%;
+	  border-radius:20%;
     background: black;
     color: white;
     display: inline-block;
@@ -57,8 +58,42 @@ background-position: center center;
 }
 .dec{
 	color: black;
-    letter-spacing: 1px;
-font-size: 25px;	
-text-align: center;
-
+  letter-spacing: 1px;
+  font-size: 15px;	
+  text-align: center;
 }
+.resume,#navbarDropdownMenuLink,.ll{
+  font-size: 20px;
+  margin:5px;
+  color:black;
+  font-weight: bold;
+}
+.dropdown-menu a{
+  width:100%;
+}
+.dropdown-menu a:hover{
+  background-color:rgb(217, 173, 230)
+}
+ .skills {
+   display: flex;
+   flex-wrap:wrap;
+   justify-content:center
+ }
+ .skills div{
+   /* padding:8%; */
+   margin:3%;
+   font-size:30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+   /* background-color: white; */
+   
+ }
+.flex{
+  flex:1;
+}
+ @media (max-width:700px){
+   .h4{
+     font-size:20px;
+   }
+ }
+ 
