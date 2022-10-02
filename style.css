@@ -1,34 +1,30 @@
-h1{
+h1 {
+  margin-top: 8%;
   color: black;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-.h4{
-	margin-top:5%;
-	color: black;	
-	font-size: 25px;
+
+.h4 {
+  margin-top: 5%;
+  color: black;
+  font-size: 25px;
   text-align: center;
 }
-.navbar{
-  padding:10px;
-  margin-bottom: 5%;
-  background-color:transparent;
-  border-bottom: 3px solid black;
-}
 
-body{
-  background-image: url('Untitled design.png');
+body {
+  /* background-image: url('Untitled design.png'); */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
+
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
@@ -40,58 +36,43 @@ body{
   margin: auto;
   overflow: hidden;
   border-radius: 50%;
-  border:5px solid black
-  }
+  border: 5px solid black
+}
 
 #link-container {
-    text-align: center;
-    margin-bottom: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
 }
+
 #link {
-	  border-radius:50%;
-    background-color: black;
-    color: white;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
+  border-radius: 50%;
+  background-color: transparent;
+  color: black;
+  display: inline-block;
+  /* padding: 10px; */
+  text-decoration: none;
 }
-.dec{
-	color: black;
-  font-size: 15px;	
+
+.dec {
+  color: black;
+  font-size: 15px;
   text-align: center;
 }
-.resume,#navbarDropdownMenuLink,.ll{
-  font-size: 20px;
-  margin:5px;
-  color:black;
-  font-weight: bold;
-}
-.dropdown-menu a{
-  width:100%;
-}
-.dropdown-menu a:hover{
-  background-color:rgb(217, 173, 230)
-}
- .skills {
-   display: flex;
-   flex-wrap:wrap;
-   justify-content:center
- }
- .skills div{
-   /* padding:8%; */
-   margin:3%;
-   font-size:30px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
-   /* background-color: white; */
-   
- }
-.flex{
-  flex:1;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
- @media (max-width:700px){
-   .h4{
-     font-size:20px;
-   }
- }
- 
+
+.icons a {
+  margin: 1%;
+}
+
+@media (max-width:700px) {
+  .h4 {
+    font-size: 20px;
+  }
+}
